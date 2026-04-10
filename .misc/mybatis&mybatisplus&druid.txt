@@ -1,0 +1,35 @@
+sbt3.5、
+	mybatis3.5.19、mybatis-spring 4.0.0、mybatis-spring-boot-starter 3.0.5 是ok的，但是mybatis-spring-boot-starter 升级到4.0.1是不行的
+	注意：mbaspr用4.x没问题，但是mbasbt一定要用3x，不能用4x，会抛异常；
+
+mybatis：mba；		mybatis-spring：mbaspr、		
+mybatis-plus mbp；	mybatis-plus-spring：mbpspr、	
+
+
+<!-- 2.3.2:sbt.2.7.18、3.0.5:sbt.3.5.0、4.0.1:sbt.4.0.1、-->
+mybatis-spring-boot-starter3 2.3.2
+mybatis-spring-boot-starter3 3.0.5
+	mybatis-spring 3.0.5、mybatis 3.5.19、sbt3.5.0
+mybatis-spring-boot-starter4 4.0.1
+	mybatis-spring 4.0.0、mybatis 4.0.0 、sbt4.0.1
+	
+mybatis-plus
+mybatis-plus-spring-boot-starter3 3.5.16
+	mybatis-plus-spring 3.5.16
+	mybatis-spring 4.0.0、mybatis 3.5.19、sbt3.5.0
+	注意：mbp 依赖的就是mbaspr4、mba还是3.5.19，sbt还是3.5
+
+<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus -->
+<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-bom -->
+      
+druid
+自1.2.28，都没bom
+
+
+MyBatis-Plus
+    https://baomidou.com/resources/changlog/
+    [v3.5.15] 2025.11.30
+        feat: 支持SpringBoot4.0.0
+        feat: 支持Jackson3.0
+mybatis-3
+    https://github.com/mybatis/mybatis-3

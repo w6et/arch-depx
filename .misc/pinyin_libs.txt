@@ -1,0 +1,22 @@
+https://github.com/stuxuhai/jpinyin
+<!-- https://mvnrepository.com/artifact/com.github.stuxuhai/jpinyin -->
+<dependency>
+    <groupId>com.github.stuxuhai</groupId>
+    <artifactId>jpinyin</artifactId>
+    <version>1.1.8</version>
+    <scope>compile</scope>
+</dependency>
+Jpinyin
+a opensource java library for converting chinese to pinyin
+
+
+https://github.com/belerweb/pinyin4j
+<!-- https://mvnrepository.com/artifact/io.xuxiaowei/pinyin4j -->
+<dependency>
+    <groupId>io.xuxiaowei</groupId>
+    <artifactId>pinyin4j</artifactId>
+    <version>2.5.2</version>
+    <scope>compile</scope>
+</dependency>
+Chinese to Pinyin » 2.5.2
+Support Chinese character (both Simplified and Tranditional) to most popular Pinyin systems, including Hanyu Pinyin, Tongyong Pinyin, Wade-Giles, MPS2, Yale and Gwoyeu Romatzyh. Support multiple pronounciations and customized output.

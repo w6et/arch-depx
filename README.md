@@ -1,1 +1,1 @@
-# arch-depx
+# arch-boot-dependencies

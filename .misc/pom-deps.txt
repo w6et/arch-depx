@@ -1,0 +1,160 @@
+        <!-- https://mvnrepository.com/artifact/org.fusesource.jansi/jansi 2.x-->
+        <!--<dependency>
+            <groupId>org.fusesource.jansi</groupId>
+            <artifactId>jansi</artifactId>
+            <version>${jansi2.version}</version>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.jline/jansi-core 3.x-->
+        <!--<dependency>
+            <groupId>org.jline</groupId>
+            <artifactId>jansi-core</artifactId>
+            <version>${jansi-core.version}</version>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.jline/jline -->
+        <!--<dependency>
+            <groupId>org.jline</groupId>
+            <artifactId>jline</artifactId>
+            <version>${jline.version}</version>
+        </dependency>-->    
+        
+        <!-- https://mvnrepository.com/artifact/org.eclipse.store/storage-embedded -->
+        <!--<dependency>
+            <groupId>org.eclipse.store</groupId>
+            <artifactId>storage-embedded</artifactId>
+            <version>2.1.3</version>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.apache.fury/fury-core -->
+        <!--<dependency>
+            <groupId>org.apache.fury</groupId>
+            <artifactId>fury-core</artifactId>
+            <version>0.10.2</version>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.apache.fury/fury-format -->
+        <!--<dependency>
+            <groupId>org.apache.fury</groupId>
+            <artifactId>fury-format</artifactId>
+            <version>0.10.2</version>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.apache.fury/fury-extensions -->
+        <!--<dependency>
+            <groupId>org.apache.fury</groupId>
+            <artifactId>fury-extensions</artifactId>
+            <version>0.10.2</version>
+        </dependency>-->
+
+
+        <!--<dependency>
+            <groupId>org.duckdb</groupId>
+            <artifactId>duckdb_jdbc</artifactId>
+            <version>${duckdb_jdbc.version}</version>
+            <scope>test</scope>
+            <optional>true</optional>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.apache.arrow/arrow-vector -->
+        <!--<dependency>
+            <groupId>org.apache.arrow</groupId>
+            <artifactId>arrow-vector</artifactId>
+            <version>${arrow-vector.version}</version>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jdt/ecj -->
+        <!--<dependency>
+            <groupId>org.eclipse.jdt</groupId>
+            <artifactId>ecj</artifactId>
+            <version>${ecj.version}</version>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.eclipse.jdt/org.eclipse.jdt.core -->
+        <!--<dependency>
+            <groupId>org.eclipse.jdt</groupId>
+            <artifactId>org.eclipse.jdt.core</artifactId>
+            <version>${ecj.version}</version>
+        </dependency>-->
+
+
+        <!-- https://mvnrepository.com/artifact/org.jspecify/jspecify -->
+        <!--<dependency>
+            <groupId>org.jspecify</groupId>
+            <artifactId>jspecify</artifactId>
+            <version>${jspecify.version}</version>
+        </dependency>-->
+
+
+        <!-- https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt -->
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>nimbus-jose-jwt</artifactId>
+            <version>${nimbus-jose-jwt.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.nimbusds/c2id-server-sdk -->
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>c2id-server-sdk</artifactId>
+            <version>${c2id-server-sdk.version}</version>
+        </dependency>
+
+
+
+        <!-- https://mvnrepository.com/artifact/com.github.mwiede/jsch -->
+        <dependency>
+            <groupId>com.github.mwiede</groupId>
+            <artifactId>jsch</artifactId>
+            <version>${jsch-mwiede.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
+        <!--<dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>${jsch-jcraft.version}</version>
+        </dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/tools.jackson.dataformat/jackson-dataformat-properties -->
+        <dependency>
+            <groupId>tools.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-properties</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tools.jackson.dataformat/jackson-dataformat-smile -->
+        <dependency>
+            <groupId>tools.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-smile</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tools.jackson.dataformat/jackson-dataformat-csv -->
+        <dependency>
+            <groupId>tools.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-csv</artifactId>
+            <version>3.0.3</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tools.jackson.dataformat/jackson-dataformat-toml -->
+        <dependency>
+            <groupId>tools.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-toml</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tools.jackson.dataformat/jackson-dataformat-protobuf -->
+        <dependency>
+            <groupId>tools.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-protobuf</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tools.jackson.dataformat/jackson-dataformats-text -->
+        <dependency>
+            <groupId>tools.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformats-text</artifactId>
+            <version>3.0.3</version>
+            <type>pom</type>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tools.jackson.dataformat/jackson-dataformat-xml -->
+        <dependency>
+            <groupId>tools.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tools.jackson.dataformat/jackson-dataformat-yaml -->
+        <dependency>
+            <groupId>tools.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+

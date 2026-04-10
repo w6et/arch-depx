@@ -1,0 +1,27 @@
+https://github.com/jakartaee/query
+
+
+Object Query Language (OQL)     从未被广泛使用
+Enterprise JavaBeans Query Language (EJB-QL)    于2001年作为查询语言引入
+
+Hibernate Query Language (HQL)  于2001年作为查询语言引入,被广泛采用 Java 社区，最终被标准化为（JPQL）
+
+Java Persistence Query Language (JPQL)  由JSR-220于2006年完成。
+Jakarta Data Query Language (JDQL)      雅加达数据1.0引入了雅加达数据查询语言（JDQL），这是JPQL的一个严格子集，旨在用于非关系型数据库。
+
+JDQL和JPQL分别由不同的人维护，这变得不便 因此，JCQL 项目承担了以下工作的责任。
+Jakarta Common Query Language (JCQL)
+https://github.com/jakartaee/query
+
+
+findByAge(Is)Null
+findByAge(Is)NotNull
+findByLastnameNot
+
+findByAgeIn(Collection<Age> ages)
+findByAgeNotIn(Collection<Age> ages)
+    
+findByActiveTrue()
+findByActiveFalse()
+
+findByFirstnameIgnoreCase

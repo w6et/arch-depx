@@ -1,0 +1,74 @@
+GA（general availability）
+RC(Release Candidate)
+
+RTM：(Release to Manufacture)是给工厂大量压片的版本，内容跟正式版是一样的，不过RTM版也有出限制、评估版的。但是和正式版本的主要程序代码都是一样的。
+
+OEM：是给计算机厂商随着计算机贩卖的，也就是随机版。只能随机器出货，不能零售。只能全新安装，不能从旧有操作系统升级。包装不像零售版精美，通常只有一面CD和说明书(授权书)。
+
+RVL：号称是正式版，其实RVL根本不是版本的名称。它是中文版/英文版文档破解出来的。
+
+EVAL：而流通在网络上的EVAL版，与“评估版”类似，功能上和零售版没有区别。
+
+RTL：Retail(零售版)是真正的正式版，正式上架零售版。在安装盘的i386文件夹里有一个eula.txt，最后有一行EULAID，就是你的版本。
+    比如
+    简体中文正式版是EULAID:WX.4_PRO_RTL_CN，
+    繁体中文正式版是WX.4_PRO_RTL_TW。其中：如果是WX.开头是正式版，WB.开头是测试版。_PRE，代表家庭版；_PRO，代表专业版。
+
+
+Plus:加强版 
+Retail:零售版
+Corporation或Enterprise企业版 
+Delux:豪华版  (deluxe: 豪华的，华丽的)
+DEMO演示版，一般会有功能限制 
+Free:免费版 
+Full:完全版 
+Final:正式版
+
+milestones：里程碑
+MR:
+SR:修正版 
+Trial:试用版（一般有时间或者功能限制）
+
+
+
+src_type == dst_type
+
+生命周期评估 (LCA)
+一般可用性 (GA)
+
+
+主流支持阶段（Mainstream Support，简称MS）
+
+延长支持阶段（Extended Life Support，简称ELS）
+
+End Of Support (EOS) 
+
+停服阶段（End of Life，简称EOL）
+
+
+停止销售日(EOM)
+
+电池状态参数详解：SOC、SOH、EOL、SOE与RUL
+SOC（State of Charge）
+、SOH（State of Health）
+、EOL（End of Life）、
+SOE（State of Energy）
+和RUL（Remaining Useful Life）
+
+
+1. 退休时间表
+确定关键里程碑：
+
+销售终止（EOS）： 当产品不再可供购买时。
+支持终止 (EoSu)： 当制造商停止提供技术支持或固件更新时。
+最后一次购买 (LTB)： 客户订购替换零件的最后期限。
+
+
+
+YYYY.MINOR.MICRO. 
+The version name follows ${calver}
+
+${calver}-${modifier}, where modifier can be one of the following:
+    SNAPSHOT: Current snapshots
+    M1, M2, and so on: Milestones
+    RC1, RC2, and so on: Release candidates

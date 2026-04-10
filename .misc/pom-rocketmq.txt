@@ -1,0 +1,49 @@
+<!--2.2.3:rocktmq_client:500,sbt:259;;;;2.3.4:rocktmq_client:531,sbt:2718;-->
+
+rocketmq-client
+    4.9.8
+    5.3.2
+    不依赖spring
+    5.x增加了一堆 grpc、opentelemetry、okhttp、netty 依赖
+rocketmq-spring-boot-starter
+    2.2.3：依赖 spr5.3.20、sbt2.5.9 、rocketmq-client-5.0.0
+    2.3.3：依赖 spr5.3.27、sbt2.7.18、rocketmq-client-5.3.1
+
+rocketmq-client-java
+    5.0.7：就这1个，没其他依赖
+    
+rocketmq-v5-client-spring-boot-starter
+    2.3.3：依赖 spr5.3.27、sbt2.7.18、不依赖 rocketmq-client，依赖 rocketmq-client-java-5.0.7
+
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client -->
+<dependency>
+    <groupId>org.apache.rocketmq</groupId>
+    <artifactId>rocketmq-client</artifactId>
+    <version>5.4.0</version>
+</dependency>
+<!-- Source: https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-spring-boot-starter -->
+<dependency>
+    <groupId>org.apache.rocketmq</groupId>
+    <artifactId>rocketmq-spring-boot-starter</artifactId>
+    <version>2.3.5</version>
+</dependency>
+<!-- Source: https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client-java -->
+<dependency>
+    <groupId>org.apache.rocketmq</groupId>
+    <artifactId>rocketmq-client-java</artifactId>
+    <version>5.2.0</version>
+</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-v5-client-spring-boot-starter -->
+<dependency>
+    <groupId>org.apache.rocketmq</groupId>
+    <artifactId>rocketmq-v5-client-spring-boot-starter</artifactId>
+    <version>2.3.5</version>
+</dependency>
+<!-- Source: https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-v5-client-spring-boot -->
+<dependency>
+    <groupId>org.apache.rocketmq</groupId>
+    <artifactId>rocketmq-v5-client-spring-boot</artifactId>
+    <version>2.3.5</version>
+</dependency>

@@ -1,0 +1,25 @@
+        <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-platform -->
+        <hibernate62.version>6.2.49.Final</hibernate62.version>
+        <hibernate63.version>6.3.2.Final</hibernate63.version>
+        <hibernate64.version>6.4.10.Final</hibernate64.version>
+        <hibernate65.version>6.5.3.Final</hibernate65.version>
+        <hibernate66.version>6.6.42.Final</hibernate66.version>
+        <hibernate70.version>7.0.10.Final</hibernate70.version>
+        <hibernate71.version>7.1.15.Final</hibernate71.version>
+        <hibernate72.version>7.2.3.Final</hibernate72.version>
+        <hibernate.version>${hibernate72.version}</hibernate.version>
+        <!-- https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator -->
+        <hibernate-validator.version>9.1.0.Final</hibernate-validator.version>
+        <!--<hibernate.version>${hibernate71.version}</hibernate.version>-->
+        <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-processor -->
+        <!--<hibernate-processor.version>${hibernate.version}</hibernate-processor.version>-->
+        <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-jpamodelgen     6x、7x都由，跟hib版本一致 -->
+        <!--<hibernate-jpamodelgen.version>${hibernate66.version}</hibernate-jpamodelgen.version>-->
+        <hibernate-jpamodelgen.version>${hibernate.version}</hibernate-jpamodelgen.version>
+        <!-- hibernate-enhance-maven-plugin.version 没有70x的 -->
+        <!-- https://mvnrepository.com/artifact/org.hibernate.orm.tooling/hibernate-enhance-maven-plugin -->
+        <hibernate-enhance-maven-plugin.version>${hibernate66.version}</hibernate-enhance-maven-plugin.version>
+        <!-- https://mvnrepository.com/artifact/org.hibernate.common/hibernate-commons-annotations -->
+        <hibernate-commons-annotations.version>7.0.3.Final</hibernate-commons-annotations.version>
+        <!-- https://mvnrepository.com/artifact/org.hibernate.models/hibernate-models -->
+        <hibernate-models.version>1.0.1</hibernate-models.version>

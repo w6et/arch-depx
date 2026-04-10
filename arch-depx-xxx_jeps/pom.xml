@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.example</groupId>
+        <artifactId>arch-depx-base</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../arch-depx-base/pom.xml</relativePath>
+    </parent>
+    <artifactId>arch-depx-xxx_jeps</artifactId>
+    <properties>
+        <java.version>26</java.version>
+        <maven.compiler.enablePreview>true</maven.compiler.enablePreview>
+        
+        <!-- Maven properties -->
+        <checkstyle.skip>true</checkstyle.skip>
+        <gpg.skip>true</gpg.skip>
+        <maven.clean.skip>false</maven.clean.skip>
+        <maven.main.skip>false</maven.main.skip>
+        <maven.test.skip>false</maven.test.skip>
+        <skipTests>false</skipTests>
+        <maven.source.skip>false</maven.source.skip>
+        <maven.resources.skip>false</maven.resources.skip>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
+        <maven.install.skip>true</maven.install.skip>
+        <maven.deploy.skip>true</maven.deploy.skip>
+        <maven.war.skip>true</maven.war.skip>
+        <maven.site.skip>true</maven.site.skip>
+        <maven.plugin.report.skip>true</maven.plugin.report.skip>
+    </properties>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,84 @@
+{
+	"##key": "//##key表示注释",
+	"##serverUrl": "http://127.0.0.1",
+	"projectName": "xxl-doc",
+	"packageFilters": "com.xxl.job.admin.controller,com.xxl.job.admin.yyw.web",
+	"##isStrict": "//是否开启严格模式",
+	"isStrict": false,
+	"##showAuthor": "//是否显示接口作者名称，默认是true,不想显示可关闭",
+	"showAuthor": false,
+	"##allInOne": "//是否将文档合并到一个文件中，一般推荐为true",
+	"allInOne": true,
+	"outPath": "src/main/resources/static/doc",
+	"coverOld": true,
+	"##createDebugPage": "//@since 2.0.0 smart-doc支持创建可以测试的html页面，仅在AllInOne模式中起作用。",
+	"createDebugPage": true,
+	"##allInOneDocFileName": "//自定义设置输出文档名称, @since 1.9.0",
+	"allInOneDocFileName": "index.html",
+	"##inlineEnum": "//设置为true会将枚举详情展示到参数表中，默认关闭，//@since 1.8.8版本开始",
+	"inlineEnum": true,
+	"##requestFieldToUnderline": "//自动将驼峰入参字段在文档中转为下划线格式,//@since 1.8.7版本开始",
+	"requestFieldToUnderline": true,
+	"##responseFieldToUnderline": "//自动将驼峰入参字段在文档中转为下划线格式,//@since 1.8.7版本开始",
+	"responseFieldToUnderline": true,
+	"##displayActualType": "//配置true会在注释栏自动显示泛型的真实类型短类名，@since 1.9.6",
+	"displayActualType": false,
+	"##md5EncryptedHtmlName": "//只有每个controller生成一个html文件是才使用",
+	"md5EncryptedHtmlName": false,
+	"##ignoreRequestParams": "//忽略请求参数对象，把不想生成文档的参数对象屏蔽掉，@since 1.9.2",
+	"ignoreRequestParams": [
+		"org.springframework.ui.ModelMap"
+		,"javax.servlet.http.HttpServletRequest"
+		,"javax.servlet.http.HttpServletResponse"
+	],
+	"dataDictionaries": [
+		{
+			"##title": "//数据字典的名称",
+			"title": "http状态码字典",
+			"enumClassName": "com.power.common.enums.HttpCodeEnum",
+			"codeField": "code",
+			"descField": "message"
+		}
+	],
+	"errorCodeDictionaries": [
+		{
+			"##title": "//错误码列表，没有需求可以不设置",
+			"title": "title",
+			"enumClassName": "com.power.common.enums.HttpCodeEnum",
+			"codeField": "code",
+			"descField": "message"
+		}
+	],
+	"revisionLogs": [
+		{
+			"version": "1.0",
+			"status": "update",
+			"author": "author",
+			"remarks": "desc"
+		}
+	],
+	"customResponseFields": [
+		{
+			"name": "code",
+			"desc": "响应代码",
+			"value": "00000"
+		}
+	],
+	"apiObjectReplacements": [
+		{
+			"className": "org.springframework.data.domain.Pageable",
+			"replacementClassName": "com.power.doc.model.PageRequestDto",
+			"#replacementClassName": "//自定义的PageRequestDto替换Pageable做文档渲染"
+		}
+	],
+	"requestHeaders": [
+		{
+			"name": "token",
+			"type": "string",
+			"desc": "desc",
+			"required": false,
+			"value": "55",
+			"since": "-"
+		}
+	]
+}
