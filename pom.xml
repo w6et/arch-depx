@@ -303,7 +303,7 @@
         <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-rocksdb -->
         <rocketmq-rocksdb.version>1.0.6</rocketmq-rocksdb.version>
         <!-- https://mvnrepository.com/artifact/org.rocksdb/rocksdbjni -->
-        <rocksdbjni.version>10.10.1</rocksdbjni.version>
+        <rocksdbjni.version>10.10.1.1</rocksdbjni.version>
 
         <!-- https://mvnrepository.com/artifact/org.apache.seata/seata-bom -->
         <seata.version>2.6.0</seata.version>
