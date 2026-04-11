@@ -8,7 +8,7 @@
         <version>3.5.10</version>
         <relativePath />
     </parent>-->
-    <groupId>com.example</groupId>
+    <groupId>com.arch.boot</groupId>
     <artifactId>arch-depx</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -82,7 +82,7 @@
         <spring-boot-admin-boot33.version>3.3.6</spring-boot-admin-boot33.version>
         <spring-boot-admin-boot34.version>3.4.7</spring-boot-admin-boot34.version>
         <spring-boot-admin-boot35.version>3.5.8</spring-boot-admin-boot35.version>
-        <spring-boot-admin-boot40.version>4.0.2</spring-boot-admin-boot40.version>
+        <spring-boot-admin-boot40.version>4.0.3</spring-boot-admin-boot40.version>
         <spring-boot-admin.version>${spring-boot-admin-boot40.version}</spring-boot-admin.version>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies -->
