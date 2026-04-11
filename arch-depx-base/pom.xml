@@ -26,7 +26,7 @@
         <poi.version>${poi5.version}</poi.version><!-- 非sbt托管 -->
         
         <spring-shell.version>${spring-shell-boot40.version}</spring-shell.version><!-- 非sbt托管 -->
-        <spring-boot-admin.version>${spring-boot-admin-boot40.version}</spring-boot-admin.version>
+        <spring-boot-admin.version>4.0.3</spring-boot-admin.version>
         <spring-boot.version>${spring-boot40.version}</spring-boot.version>
         <spring-cloud.version>${spring-cloud-boot40.version}</spring-cloud.version>
         <spring-cloud-alibaba.version>${spring-cloud-alibaba-boot40.version}</spring-cloud-alibaba.version>
