@@ -69,7 +69,7 @@
         <spring-shell-boot32.version>3.2.8</spring-shell-boot32.version>
         <spring-shell-boot33.version>3.3.4</spring-shell-boot33.version>
         <spring-shell-boot34.version>3.4.0</spring-shell-boot34.version>
-        <spring-shell-boot35.version>3.4.1</spring-shell-boot35.version>
+        <spring-shell-boot35.version>3.4.2</spring-shell-boot35.version>
         <spring-shell-boot40.version>4.0.1</spring-shell-boot40.version>
         <spring-shell.version>${spring-shell-boot40.version}</spring-shell.version>
 
@@ -173,7 +173,7 @@
         <!-- https://mvnrepository.com/artifact/org.xolstice.maven.plugins/protobuf-maven-plugin 20181001::20251204 -->
         <!-- <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version> -->
         <!-- https://mvnrepository.com/artifact/io.github.ascopes/protobuf-maven-plugin 20251125::20251204 -->
-        <protobuf-maven-plugin.version>5.1.2</protobuf-maven-plugin.version>
+        <protobuf-maven-plugin.version>5.1.3</protobuf-maven-plugin.version>
 
         <!-- https://mvnrepository.com/artifact/net.javacrumbs.shedlock/shedlock-bom -->
         <!-- 7.x.x:sbt343540;;6.x.x:sbt33;;5.x.x:sbt32;;4.x.x:sbt262730;; -->
@@ -234,7 +234,7 @@
         <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-generator -->
 
         <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
-        <sqlite-jdbc.version>3.51.2.0</sqlite-jdbc.version>
+        <sqlite-jdbc.version>3.51.3.0</sqlite-jdbc.version>
         <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
         <!--<h2.version>2.4.240</h2.version>-->
         <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
@@ -249,10 +249,10 @@
         <hibernate63.version>6.3.2.Final</hibernate63.version><!-- notSupport -->
         <hibernate64.version>6.4.10.Final</hibernate64.version><!-- notSupport -->
         <hibernate65.version>6.5.3.Final</hibernate65.version><!-- notSupport -->
-        <hibernate66.version>6.6.47.Final</hibernate66.version><!-- limitedSupport -->
+        <hibernate66.version>6.6.48.Final</hibernate66.version><!-- limitedSupport -->
         <hibernate70.version>7.0.10.Final</hibernate70.version><!-- notSupport,jakarta11 -->
-        <hibernate71.version>7.1.22.Final</hibernate71.version><!-- limitedSupport,jakarta11 -->
-        <hibernate72.version>7.2.10.Final</hibernate72.version><!-- latest stable,jakarta12 -->
+        <hibernate71.version>7.1.23.Final</hibernate71.version><!-- limitedSupport,jakarta11 -->
+        <hibernate72.version>7.2.11.Final</hibernate72.version><!-- latest stable,jakarta12 -->
         <hibernate73.version>7.3.1.Final</hibernate73.version>
         <hibernate80.version>8.0.0.Alpha1</hibernate80.version>
         <!--<hibernate.version>${hibernate66.version}</hibernate.version>-->
@@ -608,19 +608,19 @@
         <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
         <elasticsearch817.version>8.17.10</elasticsearch817.version>
         <elasticsearch818.version>8.18.8</elasticsearch818.version>
-        <elasticsearch819.version>8.19.13</elasticsearch819.version>
+        <elasticsearch819.version>8.19.14</elasticsearch819.version>
         <elasticsearch90.version>9.0.8</elasticsearch90.version>
         <elasticsearch91.version>9.1.10</elasticsearch91.version>
-        <elasticsearch92.version>9.2.7</elasticsearch92.version>
-        <elasticsearch93.version>9.3.2</elasticsearch93.version>
+        <elasticsearch92.version>9.2.8</elasticsearch92.version>
+        <elasticsearch93.version>9.3.3</elasticsearch93.version>
         <!-- https://mvnrepository.com/artifact/co.elastic.clients/elasticsearch-java -->
         <elasticsearch817-java.version>8.17.11</elasticsearch817-java.version>
         <elasticsearch818-java.version>8.18.8</elasticsearch818-java.version>
-        <elasticsearch819-java.version>8.19.13</elasticsearch819-java.version>
+        <elasticsearch819-java.version>8.19.14</elasticsearch819-java.version>
         <elasticsearch90-java.version>9.0.11</elasticsearch90-java.version>
         <elasticsearch91-java.version>9.1.12</elasticsearch91-java.version>
-        <elasticsearch92-java.version>9.2.7</elasticsearch92-java.version>
-        <elasticsearch93-java.version>9.3.3</elasticsearch93-java.version>
+        <elasticsearch92-java.version>9.2.8</elasticsearch92-java.version>
+        <elasticsearch93-java.version>9.3.4</elasticsearch93-java.version>
 
         <!-- https://mvnrepository.com/artifact/org.testcontainers/elasticsearch -->
         <elasticsearch.testcontainers.version>1.21.4</elasticsearch.testcontainers.version>
