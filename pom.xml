@@ -22,7 +22,7 @@
         <hutool.version>5.8.44</hutool.version>
         <!-- https://mvnrepository.com/artifact/com.google.guava/guava-bom -->
         <guava32.version>32.1.3-jre</guava32.version>
-        <guava33.version>33.5.0-jre</guava33.version>
+        <guava33.version>33.6.0-jre</guava33.version>
         <guava.version>${guava33.version}</guava.version>
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
@@ -196,7 +196,7 @@
         <!-- https://mvnrepository.com/artifact/tools.jackson/jackson-bom -->
         <!-- https://mvnrepository.com/artifact/tools.jackson.core/jackson-databind -->
         <jackson30.version>3.0.4</jackson30.version>
-        <jackson31.version>3.1.1</jackson31.version>
+        <jackson31.version>3.1.2</jackson31.version>
         <jackson3.version>${jackson31.version}</jackson3.version>
         <jackson.version>${jackson3.version}</jackson.version>
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
@@ -504,7 +504,7 @@
         <ip2region.version>3.3.7</ip2region.version>
 
         <!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk18on -->
-        <bouncycastle.version>1.83</bouncycastle.version>
+        <bouncycastle.version>1.84</bouncycastle.version>
         <!-- https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt -->
         <nimbus-jose-jwt.version>10.9</nimbus-jose-jwt.version>
         <!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
@@ -519,7 +519,7 @@
         <!-- https://mvnrepository.com/artifact/org.apache.maven.resolver/maven-resolver-impl -->
         <!--<maven-resolver-impl.version>2.0.16</maven-resolver-impl.version>-->
         <!-- https://mvnrepository.com/artifact/eu.maveniverse.maven.domtrip/domtrip -->
-        <domtrip.version>1.2.0</domtrip.version>
+        <domtrip.version>1.3.0</domtrip.version>
 
         <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
         <dom4j.version>2.2.0</dom4j.version>
