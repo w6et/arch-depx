@@ -24,7 +24,7 @@
         <guava32.version>32.1.3-jre</guava32.version>
         <guava33.version>33.6.0-jre</guava33.version>
         <guava.version>${guava33.version}</guava.version>
-
+        <!-- ================================================================  -->
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
         <!-- https://repo.spring.io/ui/native/snapshot/org/springframework/spring-context/ -->
         <!-- https://repo.spring.io/ui/native/milestone/org/springframework/spring-context/ ::dev_here -->
@@ -463,6 +463,7 @@
         <httpclient5.version>${httpclient56.version}</httpclient5.version>
 
         <!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+        <!-- https://github.com/zxing/zxing -->
         <zxing-core.version>3.5.4</zxing-core.version>
         <!-- https://mvnrepository.com/artifact/com.github.penggle/kaptcha -->
         <kaptcha.version>2.3.2</kaptcha.version>
