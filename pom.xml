@@ -290,7 +290,7 @@
         <rocketmq53-client.version>5.3.4</rocketmq53-client.version>
         <rocketmq54-client.version>5.4.0</rocketmq54-client.version>
         <rocketmq55-client.version>5.5.0</rocketmq55-client.version>
-        <rocketmq-client.version>${rocketmq54-client.version}</rocketmq-client.version>
+        <rocketmq-client.version>5.5.0</rocketmq-client.version>
         <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client-java -->
         <!-- rocketmq-client-java：只有这个jar，不会引入rocketmq的其他包 -->
         <rocketmq5-client-java.version>5.2.0</rocketmq5-client-java.version>
