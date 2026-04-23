@@ -17,7 +17,7 @@
     <properties>
         <java.version>25</java.version>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-        <lombok.version>1.18.44</lombok.version>
+        <lombok.version>1.18.46</lombok.version>
         <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-core -->
         <hutool.version>5.8.44</hutool.version>
         <!-- https://mvnrepository.com/artifact/com.google.guava/guava-bom -->
@@ -32,8 +32,8 @@
         <spring-framework53.version>5.3.39</spring-framework53.version>
         <spring-framework60.version>6.0.23</spring-framework60.version>
         <spring-framework61.version>6.1.21</spring-framework61.version>
-        <spring-framework62.version>6.2.17</spring-framework62.version>
-        <spring-framework70.version>7.0.6</spring-framework70.version>
+        <spring-framework62.version>6.2.18</spring-framework62.version>
+        <spring-framework70.version>7.0.7</spring-framework70.version>
         <!--<spring-framework.version>${spring-framework62x.version}</spring-framework.version>-->
 
         <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-bom  ::dev_here -->
@@ -47,9 +47,9 @@
         <spring-data-bom-boot32.version>2023.1.12</spring-data-bom-boot32.version>
         <spring-data-bom-boot33.version>2024.0.13</spring-data-bom-boot33.version>
         <spring-data-bom-boot34.version>2024.1.13</spring-data-bom-boot34.version>
-        <spring-data-bom-boot35.version>2025.0.10</spring-data-bom-boot35.version>
-        <spring-data-bom-boot40.version>2025.1.4</spring-data-bom-boot40.version>
-        <spring-data-bom-boot41.version>2026.0.0-M2</spring-data-bom-boot41.version>
+        <spring-data-bom-boot35.version>2025.0.11</spring-data-bom-boot35.version>
+        <spring-data-bom-boot40.version>2025.1.5</spring-data-bom-boot40.version>
+        <spring-data-bom-boot41.version>2026.0.0-RC1</spring-data-bom-boot41.version>
         <!--<spring-data-bom.version>${spring-data-bom-boot40.version}</spring-data-bom.version>-->
         <!-- sb26;data2021.1;hib56;hbv62;djpa:26;spr5324;sec56;des:43;es7.15,lucene:8.9.0-->
         <!-- sb27;data2021.2;hib56;hbv62;djpa:27;spr5331;sec56;des:44;es7.17,lucene:8.11.1 -->
@@ -82,7 +82,7 @@
         <spring-boot-admin-boot33.version>3.3.6</spring-boot-admin-boot33.version>
         <spring-boot-admin-boot34.version>3.4.7</spring-boot-admin-boot34.version>
         <spring-boot-admin-boot35.version>3.5.8</spring-boot-admin-boot35.version>
-        <spring-boot-admin-boot40.version>4.0.3</spring-boot-admin-boot40.version>
+        <spring-boot-admin-boot40.version>4.0.4</spring-boot-admin-boot40.version>
         <spring-boot-admin.version>${spring-boot-admin-boot40.version}</spring-boot-admin.version>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies -->
@@ -94,9 +94,9 @@
         <spring-boot32.version>3.2.12</spring-boot32.version>
         <spring-boot33.version>3.3.13</spring-boot33.version>
         <spring-boot34.version>3.4.13</spring-boot34.version>
-        <spring-boot35.version>3.5.13</spring-boot35.version>
-        <spring-boot40.version>4.0.5</spring-boot40.version>
-        <spring-boot41.version>4.1.0-M4</spring-boot41.version>
+        <spring-boot35.version>3.5.14</spring-boot35.version>
+        <spring-boot40.version>4.0.6</spring-boot40.version>
+        <spring-boot41.version>4.1.0-RC1</spring-boot41.version>
         <spring-boot.version>${spring-boot40.version}</spring-boot.version>
 
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies -->
@@ -234,7 +234,7 @@
         <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-generator -->
 
         <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
-        <sqlite-jdbc.version>3.51.3.0</sqlite-jdbc.version>
+        <sqlite-jdbc.version>3.53.0.0</sqlite-jdbc.version>
         <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
         <!--<h2.version>2.4.240</h2.version>-->
         <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
@@ -242,18 +242,18 @@
         <!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
         <!--<mariadb.version>3.5.8</mariadb.version>-->
         <!-- https://mvnrepository.com/artifact/org.duckdb/duckdb_jdbc -->
-        <duckdb_jdbc.version>1.5.1.0</duckdb_jdbc.version>
+        <duckdb_jdbc.version>1.5.2.0</duckdb_jdbc.version>
 
         <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-platform -->
-        <hibernate62.version>6.2.50.Final</hibernate62.version><!-- notSupport -->
+        <hibernate62.version>6.2.51.Final</hibernate62.version><!-- notSupport -->
         <hibernate63.version>6.3.2.Final</hibernate63.version><!-- notSupport -->
         <hibernate64.version>6.4.10.Final</hibernate64.version><!-- notSupport -->
         <hibernate65.version>6.5.3.Final</hibernate65.version><!-- notSupport -->
-        <hibernate66.version>6.6.48.Final</hibernate66.version><!-- limitedSupport -->
+        <hibernate66.version>6.6.49.Final</hibernate66.version><!-- limitedSupport -->
         <hibernate70.version>7.0.10.Final</hibernate70.version><!-- notSupport,jakarta11 -->
-        <hibernate71.version>7.1.23.Final</hibernate71.version><!-- limitedSupport,jakarta11 -->
-        <hibernate72.version>7.2.11.Final</hibernate72.version><!-- latest stable,jakarta12 -->
-        <hibernate73.version>7.3.1.Final</hibernate73.version>
+        <hibernate71.version>7.1.24.Final</hibernate71.version><!-- limitedSupport,jakarta11 -->
+        <hibernate72.version>7.2.12.Final</hibernate72.version><!-- latest stable,jakarta12 -->
+        <hibernate73.version>7.3.2.Final</hibernate73.version>
         <hibernate80.version>8.0.0.Alpha1</hibernate80.version>
         <!--<hibernate.version>${hibernate66.version}</hibernate.version>-->
         <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-processor -->
@@ -289,6 +289,7 @@
         <rocketmq52-client.version>5.2.0</rocketmq52-client.version>
         <rocketmq53-client.version>5.3.4</rocketmq53-client.version>
         <rocketmq54-client.version>5.4.0</rocketmq54-client.version>
+        <rocketmq55-client.version>5.5.0</rocketmq55-client.version>
         <rocketmq-client.version>${rocketmq54-client.version}</rocketmq-client.version>
         <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client-java -->
         <!-- rocketmq-client-java：只有这个jar，不会引入rocketmq的其他包 -->
@@ -318,7 +319,7 @@
         <nacos25.version>2.5.2</nacos25.version>
         <nacos30.version>3.0.3</nacos30.version>
         <nacos31.version>3.1.2</nacos31.version>
-        <nacos32.version>3.2.0</nacos32.version>
+        <nacos32.version>3.2.1</nacos32.version>
         <nacos.version>${nacos32.version}</nacos.version>
         <!-- com.alibaba.nacos无sbt，而com.alibaba.boot又不再维护了 -->
         <!-- https://mvnrepository.com/artifact/com.alibaba.boot/nacos-config-spring-boot-starter -->
@@ -414,6 +415,8 @@
         <aspectj.version>1.9.25.1</aspectj.version>
         <!-- https://mvnrepository.com/artifact/net.bytebuddy/byte-buddy -->
         <byte-buddy.version>1.18.8</byte-buddy.version>
+        <!-- https://mvnrepository.com/artifact/org.javassist/javassist -->
+        <javassist.version>3.31.0-GA</javassist.version>
         <!-- https://mvnrepository.com/artifact/org.antlr/antlr4 -->
         <antlr4.version>4.13.2</antlr4.version>
         <!-- https://mvnrepository.com/artifact/org.eclipse.jdt/ecj -->
@@ -482,7 +485,7 @@
         <arthas.version>4.1.8</arthas.version>
 
         <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
-        <jsoup.version>1.22.1</jsoup.version>
+        <jsoup.version>1.22.2</jsoup.version>
         <!-- https://mvnrepository.com/artifact/com.github.mwiede/jsch -->
         <jsch-mwiede.version>2.28.0</jsch-mwiede.version>
         <!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
@@ -490,7 +493,7 @@
 
         <!-- https://mvnrepository.com/artifact/io.ipinfo/ipinfo-api -->
         <!-- https://github.com/ipinfo/java 收费，需要token --><!-- 20251121:20251215 -->
-        <ipinfo-api.version>3.3.0</ipinfo-api.version>
+        <ipinfo-api.version>3.4.0</ipinfo-api.version>
         <!-- https://mvnrepository.com/artifact/co.ipdata.client/ipdata-java-client -->
         <!-- https://github.com/ipdata/java --><!-- 20200716:20251215-->
         <ipdata-java-client.version>0.2.1</ipdata-java-client.version>
@@ -607,13 +610,7 @@
         <lucene10.version>10.4.0</lucene10.version>
 
         <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
-        <elasticsearch817.version>8.17.10</elasticsearch817.version>
-        <elasticsearch818.version>8.18.8</elasticsearch818.version>
-        <elasticsearch819.version>8.19.14</elasticsearch819.version>
-        <elasticsearch90.version>9.0.8</elasticsearch90.version>
-        <elasticsearch91.version>9.1.10</elasticsearch91.version>
-        <elasticsearch92.version>9.2.8</elasticsearch92.version>
-        <elasticsearch93.version>9.3.3</elasticsearch93.version>
+        <!-- Elasticsearch subproject :server -->
         <!-- https://mvnrepository.com/artifact/co.elastic.clients/elasticsearch-java -->
         <elasticsearch817-java.version>8.17.11</elasticsearch817-java.version>
         <elasticsearch818-java.version>8.18.8</elasticsearch818-java.version>
@@ -699,7 +696,7 @@
         <!-- https://mvnrepository.com/artifact/org.eluder.coveralls/coveralls-maven-plugin -->
         <coveralls-maven-plugin.version>4.3.0</coveralls-maven-plugin.version>
         <!-- https://mvnrepository.com/artifact/org.graalvm.buildtools/native-maven-plugin -->
-        <native-build-tools-plugin.version>1.0.0</native-build-tools-plugin.version>
+        <native-build-tools-plugin.version>1.1.0</native-build-tools-plugin.version>
         <!-- https://mvnrepository.com/artifact/kr.motd.maven/os-maven-plugin -->
         <os-maven-plugin.version>1.7.1</os-maven-plugin.version>
 
