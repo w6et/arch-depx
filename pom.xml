@@ -70,7 +70,7 @@
         <spring-shell-boot33.version>3.3.4</spring-shell-boot33.version>
         <spring-shell-boot34.version>3.4.0</spring-shell-boot34.version>
         <spring-shell-boot35.version>3.4.2</spring-shell-boot35.version>
-        <spring-shell-boot40.version>4.0.1</spring-shell-boot40.version>
+        <spring-shell-boot40.version>4.0.2</spring-shell-boot40.version>
         <spring-shell.version>${spring-shell-boot40.version}</spring-shell.version>
 
         <!-- https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-dependencies -->
@@ -200,7 +200,7 @@
         <jackson3.version>${jackson31.version}</jackson3.version>
         <jackson.version>${jackson3.version}</jackson.version>
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
-        <gson.version>2.13.2</gson.version>
+        <gson.version>2.14.0</gson.version>
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <!-- https://mvnrepository.com/artifact/com.alibaba.fastjson2/fastjson2 -->
         <fastjson1.version>2.0.61</fastjson1.version>
@@ -369,7 +369,7 @@
         <!-- https://mvnrepository.com/artifact/commons-cli/commons-cli -->
         <commons-cli.version>1.11.0</commons-cli.version>
         <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-        <commons-io.version>2.21.0</commons-io.version>
+        <commons-io.version>2.22.0</commons-io.version>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-exec -->
         <commons-exec.version>1.6.0</commons-exec.version>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math4-core ::20221219::20250227 -->
@@ -783,5 +783,6 @@
         <module>arch-depx-base</module>
         <module>arch-depx-x1</module>
         <module>arch-depx-xxx_jeps</module>
+        <module>arch-depx-x2</module>
     </modules>
 </project>

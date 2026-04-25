@@ -10,104 +10,37 @@
     <packaging>pom</packaging>
     <properties>
         <java.version>26</java.version>
-        
+
         <jackson.version>${jackson3.version}</jackson.version><!-- sbt:jackson-bom.version -->
 
         <groovy.version>${groovy5.version}</groovy.version><!-- sbt托管 -->
-        
+
         <netty.version>${netty41.version}</netty.version><!-- sbt托管 -->
-        
+
         <slf4j.version>${slf4j-jdk8up.version}</slf4j.version><!-- sbt托管 -->
         <logback.version>${logback15.version}</logback.version><!-- sbt托管 -->
         <log4j2.version>2.25.4</log4j2.version><!-- sbt托管 -->
-        
+
         <hibernate-validator.version>${hibernate-validator91.version}</hibernate-validator.version><!-- sbt托管 -->
-        
+
         <poi.version>${poi5.version}</poi.version><!-- 非sbt托管 -->
-        
+
         <spring-shell.version>${spring-shell-boot40.version}</spring-shell.version><!-- 非sbt托管 -->
         <spring-boot-admin.version>${spring-boot-admin-boot40.version}</spring-boot-admin.version>
         <spring-boot.version>${spring-boot40.version}</spring-boot.version>
         <spring-cloud.version>${spring-cloud-boot40.version}</spring-cloud.version>
         <spring-cloud-alibaba.version>${spring-cloud-alibaba-boot40.version}</spring-cloud-alibaba.version>
         <spring-cloud-tencent.version>${spring-cloud-tencent-boot34.version}</spring-cloud-tencent.version>
-        
+
         <spring-ai.version>${spring-ai-boot40.version}</spring-ai.version>
         <spring-ai-alibaba-extensions.version>${spring-ai-alibaba-extensions-boot35.version}</spring-ai-alibaba-extensions.version>
-        
+
         <spring-grpc.version>${spring-grpc-boot40.version}</spring-grpc.version>
-        
+
     </properties>
 
     <dependencyManagement>
         <dependencies>
-            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
-                <scope>provided</scope>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/org.antlr/antlr4 -->
-            <dependency>
-                <groupId>org.antlr</groupId>
-                <artifactId>antlr4</artifactId>
-                <version>${antlr4.version}</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/org.antlr/antlr4-runtime -->
-            <dependency>
-                <groupId>org.antlr</groupId>
-                <artifactId>antlr4-runtime</artifactId>
-                <version>${antlr4.version}</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-bom -->
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-bom</artifactId>
-                <version>${slf4j.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
-            <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-classic</artifactId>
-                <version>${logback.version}</version>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-bom -->
-            <dependency>
-                <groupId>org.apache.logging.log4j</groupId>
-                <artifactId>log4j-bom</artifactId>
-                <version>${log4j2.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson/jackson-bom -->
-            <dependency>
-                <groupId>com.fasterxml.jackson</groupId>
-                <artifactId>jackson-bom</artifactId>
-                <version>${jackson2.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/tools.jackson.core/jackson-core -->
-            <!-- https://mvnrepository.com/artifact/tools.jackson.core/jackson-databind -->
-            <!-- https://mvnrepository.com/artifact/tools.jackson/jackson-bom -->
-            <dependency>
-                <groupId>tools.jackson</groupId>
-                <artifactId>jackson-bom</artifactId>
-                <version>${jackson3.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt -->
-            <dependency>
-                <groupId>com.nimbusds</groupId>
-                <artifactId>nimbus-jose-jwt</artifactId>
-                <version>${nimbus-jose-jwt.version}</version>
-            </dependency>
-
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -144,25 +77,12 @@
                 <scope>import</scope>
             </dependency>
 
-            <!-- https://mvnrepository.com/artifact/org.ow2.asm/asm-bom -->
-            <dependency>
-                <groupId>org.ow2.asm</groupId>
-                <artifactId>asm-bom</artifactId>
-                <version>${asm.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>${commons-io.version}</version>
             </dependency>
-            <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
-            <dependency>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-                <version>${commons-codec.version}</version>
-            </dependency>
+
             <dependency>
                 <groupId>commons-net</groupId>
                 <artifactId>commons-net</artifactId>
@@ -456,7 +376,7 @@
                 <artifactId>java-jwt</artifactId>
                 <version>${java-jwt.version}</version>
             </dependency>
-            
+
             <!-- https://mvnrepository.com/artifact/net.javacrumbs.shedlock/shedlock-bom -->
             <dependency>
                 <groupId>net.javacrumbs.shedlock</groupId>
@@ -465,7 +385,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            
+
             <!-- https://mvnrepository.com/artifact/com.alibaba.nacos/nacos-client -->
             <dependency>
                 <groupId>com.alibaba.nacos</groupId>
@@ -501,8 +421,8 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            
-            
+
+
             <!-- https://mvnrepository.com/artifact/cn.dev33/sa-token-bom -->
             <dependency>
                 <groupId>cn.dev33</groupId>
@@ -542,7 +462,7 @@
                 <artifactId>dubbo-registry-nacos</artifactId>
                 <version>${dubbo.version}</version>
             </dependency>
-            
+
             <!-- https://mvnrepository.com/artifact/org.apache.tika/tika-bom -->
             <dependency>
                 <groupId>org.apache.tika</groupId>
