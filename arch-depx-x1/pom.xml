@@ -12,6 +12,7 @@
     <properties>
         <!-- Maven properties -->
         <checkstyle.skip>true</checkstyle.skip>
+        <spotbugs.skip>true</spotbugs.skip>
         <spotless.check.skip>true</spotless.check.skip>
         <spotless.apply.skip>true</spotless.apply.skip>
         <gpg.skip>true</gpg.skip>
