@@ -148,9 +148,10 @@
         <!-- https://mvnrepository.com/artifact/org.springframework.ai/spring-ai-bom -->
         <!-- https://repo.spring.io/ui/native/milestone/org/springframework/ai/spring-ai-bom -->
         <!-- https://repo.spring.io/ui/native/snapshot/org/springframework/ai/spring-ai-bom/ -->
-        <!-- ai:1.0.5:sbt3.5.0;ai:1.0.5:sbt3.5.11;ai:1.1.4:sbt3.5.11;ai:2.0.0:sbt4; -->
-        <spring-ai-boot35.version>1.1.4</spring-ai-boot35.version>
-        <spring-ai-boot40.version>2.0.0-M4</spring-ai-boot40.version>
+        <!-- ai:1.0.6:sbt3.5.14;ai:1.1.5:sbt3.5.14;ai:2.0.0-M5:sbt4.1.0-RC1;M2用的还是sbt40,M3就变成sbt41; -->
+        <spring-ai-boot35.version>1.1.5</spring-ai-boot35.version>
+        <spring-ai-boot40.version>2.0.0-M2</spring-ai-boot40.version>
+        <spring-ai-boot41.version>2.0.0-M5</spring-ai-boot41.version>
         <spring-ai.version>${spring-ai-boot40.version}</spring-ai.version>
 
         <!-- https://mvnrepository.com/artifact/com.alibaba.cloud.ai/spring-ai-alibaba-bom -->
@@ -164,9 +165,10 @@
         <!-- https://mvnrepository.com/artifact/org.springframework.grpc/spring-grpc-dependencies -->
         <!-- https://repo.spring.io/ui/native/snapshot/org/springframework/grpc/spring-grpc-dependencies/ -->
         <spring-grpc-boot35.version>0.12.0</spring-grpc-boot35.version>
-        <spring-grpc-boot40.version>1.0.2</spring-grpc-boot40.version>
-        <spring-grpc-boot41.version>1.1.0-M1</spring-grpc-boot41.version>
+        <spring-grpc-boot40.version>1.0.3</spring-grpc-boot40.version>
+        <spring-grpc-boot41.version>1.1.0-RC1</spring-grpc-boot41.version>
         <spring-grpc.version>${spring-grpc-boot40.version}</spring-grpc.version>
+
         <!-- https://mvnrepository.com/artifact/io.grpc/grpc-bom -->
         <grpc.version>1.80.0</grpc.version>
 
@@ -290,7 +292,7 @@
         <rocketmq53-client.version>5.3.4</rocketmq53-client.version>
         <rocketmq54-client.version>5.4.0</rocketmq54-client.version>
         <rocketmq55-client.version>5.5.0</rocketmq55-client.version>
-        <rocketmq-client.version>${rocketmq54-client.version}</rocketmq-client.version>
+        <rocketmq-client.version>${rocketmq55-client.version}</rocketmq-client.version>
         <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client-java -->
         <!-- rocketmq-client-java：只有这个jar，不会引入rocketmq的其他包 -->
         <rocketmq5-client-java.version>5.2.0</rocketmq5-client-java.version>
@@ -356,14 +358,14 @@
         <zookeeper.version>${zookeeper39.version}</zookeeper.version>
 
         <!-- lang3,codec,logging,dbcp2,pool,pool2 managed by sbt-->
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-        <lombok.version>1.18.44</lombok.version>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 --><!-- org.apache.commons -->
         <commons-lang3.version>3.20.0</commons-lang3.version>
         <!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
-        <commons-codec.version>1.21.0</commons-codec.version>
+        <commons-codec.version>1.22.0</commons-codec.version>
         <!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
         <commons-logging.version>1.3.6</commons-logging.version>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-dbcp2 -->
+        <commons-dbcp2.version>2.14.0</commons-dbcp2.version>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-pool2 -->
         <commons-pool2.version>2.13.1</commons-pool2.version>
         <!-- https://mvnrepository.com/artifact/commons-cli/commons-cli -->
@@ -452,17 +454,17 @@
         <reload4j12.version>1.2.26</reload4j12.version>
 
         <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
-        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5 -->
         <httpclient41.version>4.1.3</httpclient41.version>
         <httpclient44.version>4.4.1</httpclient44.version>
         <httpclient45.version>4.5.14</httpclient45.version>
+        <httpclient4.version>${httpclient45.version}</httpclient4.version>
+        <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5 -->
         <httpclient51.version>5.1.4</httpclient51.version>
         <httpclient52.version>5.2.3</httpclient52.version>
         <httpclient53.version>5.3.1</httpclient53.version>
         <httpclient54.version>5.4.4</httpclient54.version>
         <httpclient55.version>5.5.2</httpclient55.version>
-        <httpclient56.version>5.6</httpclient56.version>
-        <httpclient4.version>${httpclient45.version}</httpclient4.version>
+        <httpclient56.version>5.6.1</httpclient56.version>
         <httpclient5.version>${httpclient56.version}</httpclient5.version>
 
         <!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
@@ -523,7 +525,7 @@
         <!-- https://mvnrepository.com/artifact/org.apache.maven.resolver/maven-resolver-impl -->
         <!--<maven-resolver-impl.version>2.0.16</maven-resolver-impl.version>-->
         <!-- https://mvnrepository.com/artifact/eu.maveniverse.maven.domtrip/domtrip -->
-        <domtrip.version>1.3.0</domtrip.version>
+        <domtrip.version>1.4.0</domtrip.version>
 
         <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
         <dom4j.version>2.2.0</dom4j.version>
@@ -567,7 +569,7 @@
         <!-- https://mvnrepository.com/artifact/org.jline/jline -->
         <!-- https://mvnrepository.com/artifact/org.jline/jansi-core -->
         <!-- https://mvnrepository.com/artifact/org.jline/jline-terminal -->
-        <jline.version>4.0.12</jline.version>
+        <jline.version>4.0.14</jline.version>
         <!-- https://mvnrepository.com/artifact/org.jline/jansi-core 3.x-->
         <jansi-core.version>${jline.version}</jansi-core.version>
         <!-- https://mvnrepository.com/artifact/org.fusesource.jansi/jansi -->
@@ -635,7 +637,7 @@
         <jol.version>0.17</jol.version>
 
         <!-- https://mvnrepository.com/artifact/net.sourceforge.pmd/pmd-core -->
-        <pmd-core.version>7.23.0</pmd-core.version>
+        <pmd-core.version>7.24.0</pmd-core.version>
         <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs -->
         <spotbugs.version>4.9.8</spotbugs.version>
         <!-- https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs-maven-plugin -->
@@ -785,4 +787,28 @@
         <module>arch-depx-xxx_jeps</module>
         <module>arch-depx-x2</module>
     </modules>
+	
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-toolchains-plugin</artifactId>
+            <version>3.2.0</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>toolchain</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <toolchains>
+                    <jdk>
+                        <version>26</version>
+                    </jdk>
+                </toolchains>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 </project>
