@@ -514,7 +514,7 @@
         <!-- https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt -->
         <nimbus-jose-jwt.version>10.9</nimbus-jose-jwt.version>
         <!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
-        <java-jwt.version>4.5.1</java-jwt.version>
+        <java-jwt.version>4.5.2</java-jwt.version>
 
         <!-- https://mvnrepository.com/artifact/org.commonmark/commonmark -->
         <commonmark.version>0.28.0</commonmark.version>
