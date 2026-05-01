@@ -550,7 +550,7 @@
         <!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
         <easyexcel.version>4.0.3</easyexcel.version>
         <!-- https://mvnrepository.com/artifact/com.github.librepdf/openpdf -->
-        <openpdf.version>3.0.3</openpdf.version>
+        <openpdf.version>3.0.4</openpdf.version>
         <!-- Source: https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
         <itextpdf.version>5.5.13.5</itextpdf.version>
 
