@@ -489,7 +489,7 @@
         <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
         <jsoup.version>1.22.2</jsoup.version>
         <!-- https://mvnrepository.com/artifact/com.github.mwiede/jsch -->
-        <jsch-mwiede.version>2.28.0</jsch-mwiede.version>
+        <jsch-mwiede.version>2.28.2</jsch-mwiede.version>
         <!-- https://mvnrepository.com/artifact/com.jcraft/jsch -->
         <jsch-jcraft.version>0.1.55</jsch-jcraft.version><!-- replace by com.github.mwiede/jsch -->
 
